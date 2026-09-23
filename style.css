@@ -190,6 +190,44 @@ nav {
     text-decoration: underline;
 }
 
+/* Skills Section */
+
+.skills {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 30px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.skills h2 {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 35px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.skill-group {
+    padding: 25px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+}
+
+.skill-group h3 {
+    font-size: 18px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.skill-group p {
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
 /* Mobile */
 
 @media (max-width: 700px) {
@@ -218,5 +256,9 @@ nav {
 
     .project-grid {
     grid-template-columns: 1fr;
-}
+    }
+
+    .skills-grid {
+    grid-template-columns: 1fr;
+    }
 }
