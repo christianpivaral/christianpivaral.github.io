@@ -266,6 +266,57 @@ nav {
     color: #4b5563;
 }
 
+/* Contact Section */
+
+.contact {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 30px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    max-width: 650px;
+    color: #4b5563;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.contact-links {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-links a {
+    padding: 10px 20px;
+    border: 1px solid #2563eb;
+    border-radius: 5px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+    padding: 25px 20px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
 /* Mobile */
 
 @media (max-width: 700px) {
@@ -302,5 +353,9 @@ nav {
 
     .services-grid {
     grid-template-columns: 1fr;
+    }
+
+    .contact-links {
+    flex-wrap: wrap;
     }
 }
